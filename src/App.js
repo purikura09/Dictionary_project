@@ -9,9 +9,13 @@ export default function App() {
         <header className="App-header">
           <img src={logo} className="Logo img-fluid" alt="logo" />
           <br />
-          <Dictionary />
         </header>
-        <footer className="text-center">Coded by RBK</footer>
+        <br />
+        <center>
+          <Dictionary />
+        </center>
+
+        <footer className="text-center">Coded by Rebecca with SheCodes</footer>
       </div>
     </div>
   );
