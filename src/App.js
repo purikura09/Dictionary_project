@@ -11,9 +11,8 @@ export default function App() {
           <br />
         </header>
         <br />
-        <center>
-          <Dictionary />
-        </center>
+
+        <Dictionary />
 
         <footer className="text-center">Coded by Rebecca with SheCodes</footer>
       </div>
