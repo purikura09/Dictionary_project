@@ -8,5 +8,40 @@
 footer {
   margin-top: 50px;
 }
-.Dictionary form {
+input {
+  width: 500px;
+  height: 40px;
+  border-radius: 3px;
+}
+.Meaning {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+.Phonetic {
+  height: 50px;
+}
+.Phonetic a {
+  border: 1px solid blueviolet;
+  padding: 10px 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: blueviolet;
+  border-radius: 10px;
+}
+
+.Phonetic a:hover {
+  background-color: blueviolet;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  margin-left: -32px;
+}
+h2,
+h3 {
+  text-transform: capitalize;
 }
